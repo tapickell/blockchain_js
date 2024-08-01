@@ -1,0 +1,29 @@
+{
+  "name": "udemy_blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app",
+    "dev": "nodemon ./app",
+    "test": "jest",
+    "dev-test": "node dev-test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.1",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "elliptic": "^6.5.3",
+    "express": "^4.17.1",
+    "uuid": "^8.3.0",
+    "ws": "^7.3.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
